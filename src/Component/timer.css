@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Muli:300,400&display=swap');
+
+.timer {
+    font-family: 'Muli',sans-serif;
+    font-style: normal;
+    font-size: 3em;
+    font-weight: bold;
+    text-align: center;
+    color:  #FF0000;
+    margin: 0;
+    
+}

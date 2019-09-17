@@ -1,0 +1,305 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Muli:300,400&display=swap');
+
+/* header */
+.header {
+    /* position: fixed; */
+    /* width: 100vw; */
+    /* height: 10vh; */
+    background: #28009B;
+    display: grid;
+    grid-template-columns: auto 35vw;
+    grid-area: 1/1/2/2;
+}
+.title-container {
+    display: flex;
+    /* height: 10vh; */
+    padding: 0.5em;
+}
+.title {
+    font-family: 'Lobster', cursive;
+    font-size: 2em;
+    font-style: normal;
+    font-weight: normal;
+    color: white;
+    margin: 0;
+}
+.pages-links {
+    display: flex;
+    justify-content: space-between;
+}
+a {
+    font-family: 'Muli', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1em;
+    padding: 1em;
+    color: white;
+    text-decoration: none;
+    margin: 0;
+}
+hr {
+    height: 0.25em;
+    margin: 0;
+    background: #FF0000;
+}
+/* header */
+
+
+/*=============================================
+=            Landing page            =
+=============================================*/
+
+.landing {
+    /* width: 100vw; */  
+    background: #1B045D;
+    grid-area: 2/1/3/2;
+    display: grid;
+    /* height: 80vh; */
+    justify-content: center;
+    grid-row-gap: 2em;
+    /* margin-top: 4em; */
+}
+.subtitle {
+    font-family: 'Muli', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 3em;
+    color: white;
+    margin: 0;
+    text-align: center;
+}
+.p-1-container {
+    display: flex;
+    justify-content: center;
+}
+.p-1 {
+    font-family: 'Muli', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: white;
+    margin: 0;
+    text-align: center;
+    width: 50vw;
+}
+.form-container {
+    display: flex;
+    justify-content: center;
+    padding: 1.5em;
+}
+.login-form {
+    width: 37.5em;
+    height: 18.75em;
+    background: white;
+    border-radius: 0.9375em;
+    text-align: center;
+    display: grid;
+    justify-content: center;
+    padding: 2.5em;
+
+}
+.login-title {
+    font-family: 'Muli', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #28009B;
+    margin: 0;   
+}
+.email {
+    background: #FFFFFF;
+    border: 0.125em solid #28009B;
+    border-radius: 1.875em;
+    width: 25em;
+    height: 3.75em;
+}
+.submit {
+    background: linear-gradient(180deg, #28009B 0%, #5B0FFD 100%);
+    border-radius: 1.875em;
+    width: 25em;
+    height: 3.75em; 
+    border: none;
+    color: white;
+    font-family: 'Muli', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+}
+/*=====  End of Landing page  ======*/
+
+
+/*=============================================
+=            Goal Page            =
+=============================================*/
+
+.goal-container {
+    /* width: 100vw; */
+    height: 100vh;
+    background: linear-gradient(180deg, #1B045D 0%, #270079 26.15%, #5A0090 53.23%, #BA0101 100%);
+    display: grid;
+    grid-template-columns: auto auto;
+    padding-top: 10em;
+}
+.goal-title {
+    font-family: 'Muli', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 4em;
+    color: white;
+    margin: 0;
+}
+.left-container{
+    padding: 2em;
+}
+.p-2-container {
+    display: flex;
+    justify-content: center;
+}
+.p-2 {
+    font-family: 'Muli', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: white;
+    margin: 0; 
+}
+.right-container {
+    padding: 2em; 
+}
+.follow {
+    height: 40vh;
+    width: 30vw;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    display: grid;
+    padding: 2em;
+}
+.follow-title {
+    font-family: 'Muli',sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    color: #270079;
+    font-size: 2.25em;
+    margin: 0;
+    text-align: center;
+}
+.comment-1 {
+    font-family: 'Muli', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    text-align: center;
+    color: #9D9D9D;
+    margin: 0;
+}
+.s-m-container {
+    display: flex;
+    justify-content: space-around;
+}
+.instagram {
+    font-size: 1.5em;
+    color: #FE0404;
+}
+.facebook {
+    font-size: 1.5em;
+    color: #3462FA;
+}
+.twitter {
+    font-size: 1.5em;
+    color: #2B05EB;
+}
+.s-m-link {
+    font-family: 'Muli', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1em;
+    color: #000000;
+    padding: 0;
+}
+/*=====  End of Goal Page  ======*/
+
+
+/*=============================================
+=            Challenge Page            =
+=============================================*/
+
+.challenge-container {
+    background: linear-gradient(180deg, #BA0101 0%, #D10000 29.79%, #240048 63.12%, #010036 99.98%);
+    height: 100vh;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.challenge-title {
+    font-family: 'Muli', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 3em;
+    color: white;
+    text-align: center;
+}
+.p-3 {
+    font-family: 'Muli', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.5em;
+    text-align: center;
+    color: #FFFFFF;
+}
+.challenge-form-container {
+    padding: 1em;
+}
+.challenge-form {
+    width: 40vw;
+    /* height: 60vh; */
+    border: 2px solid #FFFFFF;
+    border-radius: 10px;
+    display: grid;
+    /* padding: 3em; */
+    justify-content: center;
+}
+.add-challenge-title {   
+    font-family: 'Muli', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2.25em;
+    color: white;
+    text-align: center;
+    margin: 0;
+}
+.textarea-input {
+    width: 30vw;
+    height: 15vh;
+    border: none;
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+.challenge-label {
+    font-family: 'Muli', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1em;
+    color: white;
+}
+.username-input {
+    width: 30vw;
+    height: 5vh;
+    background: #FFFFFF;
+    border-radius: 10px;
+    border: none;
+}
+.challenge-submit {
+    width: 10vw;
+    height: 5vh;
+    background: white;
+    border: none;
+    border-radius: 1em;
+    font-family: 'Muli', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1em;
+    color: #240048;
+}
+/*=====  End of Challenge Page  ======*/
+
+
+

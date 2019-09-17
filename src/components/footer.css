@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Muli:300,400&display=swap');
+.footer {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    text-align: center;
+    background: none;
+    justify-content: space-between;
+    padding-top: 7em;
+    /* background: linear-gradient(180deg, #25F5FF 0%, #00FFE6 17.29%, #1EA4F2 43.33%, #3462FA 78.23%, #2B05EB 100%); */
+}
+label {
+    font-family: 'Muli', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1em;
+    color: black;
+}

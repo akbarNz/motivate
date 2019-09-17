@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Muli:300,400&display=swap');
+
+.title {
+    font-family: 'Lobster', cursive;
+    font-size: 3em;
+    font-style: normal;
+    font-weight: bold;
+    color: white;
+    margin: 0;
+}
+.container {
+    height: 100vh;
+    width: 100vw;
+    display: grid
+}
+.first-page-container {
+    clip-path: polygon(0px 0px, 0px 100%, 70% 100%, 1072px 0px, 36.65% 0%);
+    background: linear-gradient(180deg, #25F5FF 0%, #3462FA 17.81%, #2B05EB 42.81%, #0017EB 62.08%, #3462FA 80.31%, #00FFE6 99.98%, #2B05EB 99.99%, #0017EB 100%);
+    /* background: linear-gradient(180deg, #25F5FF 0%, #3462FA 24.64%, #2B05EB 51.09%, #005AEB 84.26%, rgba(43, 5, 235, 0) 100%, rgba(43, 5, 235, 0) 100%); */
+    width: 70vw;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 20vh 60vh 20vh;
+}
+.header-container {
+    width: 60vw;
+    height: 20vh;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.title-container {
+    display: flex;
+    justify-content: center;
+}
+hr {
+    width: 100vw;
+    color: white;
+}
+.body-container {
+    width: 60vw;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-around;
+    padding-top: 8em;
+}
+.goals-container {
+    height: 20vh;
+    width: 15vw;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+    border-color: white;
+    display: grid;
+    justify-content: center;
+}
+.challenge-container {
+    height: 20vh;
+    width: 15vw;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+    border-color: white;
+    display: grid;
+    justify-content: center;
+}
+.motivation-container {
+    height: 20vh;
+    width: 15vw;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+    border-color: white;
+    display: grid;
+    justify-content: center;
+}
+.subtitle {
+    font-family: 'Muli', sans-serif;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 1.5em;
+    color: #FFFFFF;
+    text-align: center;
+    margin: 0;
+    grid-area: 1/1/2/2;
+    z-index: 1;
+    padding: 2.1em;
+}
+.explication {
+    font-family: 'Muli', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1em;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-align: center;   
+}
+.svg-inline--fa.fa-w-16 {
+    font-size: 3em;
+    grid-area: 1/1/2/2;
+    color: #ffffff4a;
+    height: 20vh;
+    width: 15vw;
+}
+.svg-inline--fa.fa-w-12 {
+    height: 20vh;
+    width: 6vw;
+    color: #ffffff4a;
+    font-size: 3em;
+}
+.chessContainer {
+    display: flex;
+    justify-content: space-around;
+    grid-area: 1/1/2/2;
+}
+.chess-knight-left {
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+.infinite-icon-container {
+    grid-area: 1/1/2/2;
+    text-align: center;   
+}
+.pic-1 {
+    width: 100vw;
+    height: 100vh;
+}
