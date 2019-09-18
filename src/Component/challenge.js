@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import "./style.css";
-var FontAwesome = require('react-fontawesome');
+/* var FontAwesome = require('react-fontawesome'); */
 class Challenge extends Component {
     constructor(props) {
         super(props);
@@ -36,20 +36,17 @@ class Challenge extends Component {
                 <div className="challenge-form-container">
                     <form onSubmit={this.handleSubmit} className="challenge-form">
                         <h3 className="add-challenge-title">Add challenge</h3>
-                        <textarea value={this.state.textchallenge} onChange={this.handleChallenge} className="textarea-input"/>
+                        <textarea value={this.state.textchallenge} onChange={this.handleChallenge} className="textarea-input" placeholder="add your challenge here ..."/>
                         <label className="challenge-label">instagram username</label>
-                        <input type="text" value={this.state.username} onChange={this.handleUsername} className="username-input"/>
+                        <input type="text" value={this.state.username} onChange={this.handleUsername} className="username-input" placeholder="@username"/>
                         <label className="challenge-label">tag your friends</label>
-                        <input type="text" value={this.state.friends} onChange={this.handleFriends} className="username-input"/>
-                        <label className="challenge-label">
-                            <FontAwesome
-                                name='paper-plane'
-                                size='2x'
-                                style={{color:"white" }}
-                            />
-                            find all challenges on our instagram
-                        </label>
-                        <input type="submit" value="Submit" className="challenge-submit"/>
+                        <input type="text" value={this.state.friends} onChange={this.handleFriends} className="username-input" placeholder="@friend username"/>
+                        <span className="challenge-submit-span">
+                            <label className="challenge-label">
+                                find all challenges on our instagram
+                            </label>
+                            <input type="submit" value="Submit" className="challenge-submit"/>
+                        </span>  
                     </form>  
                 </div>  
                 <div className="challenge-explication">

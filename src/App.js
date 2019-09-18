@@ -4,6 +4,7 @@ import Header from "./Component/header";
 import Landing from "./Component/landing";
 import Goal from "./Component/goal";
 import Challenge from "./Component/challenge";
+import Motivation from "./Component/motivation";
 import { library } from "@fortawesome/fontawesome-svg-core";
 /* import { faPaperPlane } from "@fortawesome/free-regular-svg-icons"; */
 import { fab, faInstagram, faFacebookF, faTwitter } from "@fortawesome/free-brands-svg-icons";
@@ -18,6 +19,7 @@ class App extends Component {
         <Landing />
         <Goal />
         <Challenge />
+        <Motivation />
       </div>
     );
   }
